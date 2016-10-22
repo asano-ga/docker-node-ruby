@@ -1,5 +1,7 @@
 FROM node:6.7.0
 
+MAINTAINER y_asano@ga-tech.co.jp
+
 # skip installing gem documentation
 RUN mkdir -p /usr/local/etc \
 	&& { \
